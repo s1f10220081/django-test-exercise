@@ -7,7 +7,6 @@ from todo.models import Task
 
 def index(request):
 
-
     if request.method == 'POST':
         task = Task(
             title=request.POST['title'],
